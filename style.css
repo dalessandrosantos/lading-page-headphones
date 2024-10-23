@@ -152,3 +152,72 @@ section {
   border: 2px solid var(--text-color);
   color: #000;
 }
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main li img {
+  width: 50px;
+  height: auto;
+  max-width: 100%;
+}
+
+.row {
+  background: var(--main-color);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all .5s ease;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.row:hover {
+  transform: translateY(-8px);
+}
+
+.row2 {
+  background: #ff758d;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all .5s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row2:hover {
+  transform: translateY(-8px);
+}
+
+.row3 {
+  background: #ffd06d;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all .5s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row3:hover {
+  transform: translateY(-8px);
+}
+
+
